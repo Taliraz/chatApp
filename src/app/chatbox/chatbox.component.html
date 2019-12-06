@@ -1,0 +1,15 @@
+<h4>TEST</h4>
+<div id="chatBox">
+  <ul id="messages">
+    <li *ngFor="let m of messages">
+      <strong>{{m.pseudo}}: </strong>{{m.text}}
+    </li>
+  </ul>
+</div>
+<div class="input-group mb-3" id="inputMessage">
+  <input type="text" class="form-control" placeholder="message" aria-label="message" aria-describedby="envoyer" [(ngModel)]="message">
+  <div class="input-group-append">
+    <button class="btn btn-outline-success" type="button" id="envoyer" (click)="envoyerMessage()">Envoyer</button>
+  </div>
+</div>
+

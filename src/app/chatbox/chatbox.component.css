@@ -1,0 +1,16 @@
+#chatBox{
+  background-color: gray;
+  height: 80%;
+  width: 90%;
+}
+#inputMessage{
+  width: 90%;
+}
+#messages{
+  list-style:none;
+  margin-left:3px;
+  padding-left:0;
+}
+#messages li{
+  color: black;
+}

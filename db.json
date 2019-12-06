@@ -17,5 +17,84 @@
       "name": "Programmation"
     }
   ],
-  "messages": []
+  "messages": [
+    {
+      "id": 1,
+      "pseudo": "Talirtaz",
+      "text": "test",
+      "channelId": "1"
+    },
+    {
+      "id": 2,
+      "pseudo": "Taliraz",
+      "text": "Coucou",
+      "channelId": "1"
+    },
+    {
+      "id": 3,
+      "pseudo": "Taliraz",
+      "text": "ca va?",
+      "channelId": "1"
+    },
+    {
+      "id": 4,
+      "pseudo": "Taliraz",
+      "text": "Oui et toi?",
+      "channelId": "1"
+    },
+    {
+      "pseudo": "isgssd",
+      "text": "sdsdsd",
+      "channelId": "4",
+      "id": 5
+    },
+    {
+      "pseudo": "isgssd",
+      "text": "sdsdsd",
+      "channelId": "4",
+      "id": 6
+    },
+    {
+      "pseudo": "Taliraz",
+      "text": "Test",
+      "channelId": "1",
+      "id": 7
+    },
+    {
+      "pseudo": "Ton double",
+      "text": "Hello?",
+      "channelId": "1",
+      "id": 8
+    },
+    {
+      "pseudo": "qsdqsd",
+      "text": "TEST",
+      "channelId": "2",
+      "id": 9
+    },
+    {
+      "pseudo": "qsdqsd",
+      "text": "zerzer",
+      "channelId": "2",
+      "id": 10
+    },
+    {
+      "pseudo": "qsqsd",
+      "text": "asdasd",
+      "channelId": "2",
+      "id": 11
+    },
+    {
+      "pseudo": "sdsd",
+      "text": "test",
+      "channelId": "2",
+      "id": 12
+    },
+    {
+      "pseudo": "qsdqsd",
+      "text": "haha",
+      "channelId": "3",
+      "id": 13
+    }
+  ]
 }

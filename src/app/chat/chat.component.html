@@ -1,0 +1,14 @@
+<div class="row" id="salons">
+  <div class="col-md-3">
+    <div class="list-group">
+      <a *ngFor="let channel of channels"
+         class="list-group-item list-group-item-action {{selectionne == channel.id ? 'active' : ''}}"
+         (click)="afficherMessages(channel.id)">
+        {{channel.name}}
+      </a>
+    </div>
+  </div>
+  <div class="col-md-9">
+    <app-chatbox *ngIf="selectionne" [idSalon]="selectionne"></app-chatbox>
+  </div>
+</div>
