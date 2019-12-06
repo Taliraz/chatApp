@@ -11,5 +11,6 @@ export class AppComponent {
   title = 'chatApp';
 
   constructor(
-    ) {}
+    private chatService: ChatService
+    ) {};
 }

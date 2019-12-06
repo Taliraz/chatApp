@@ -1,7 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Message} from '../message';
 import {ChatService} from '../chat.service';
-import {ActivatedRoute, ParamMap} from '@angular/router';
 
 @Component({
   selector: 'app-chatbox',
