@@ -1,0 +1,21 @@
+{
+  "channels": [
+    {
+      "id": 1,
+      "name": "Général"
+    },
+    {
+      "id": 2,
+      "name": "BDE"
+    },
+    {
+      "id": 3,
+      "name": "Vie étudiante"
+    },
+    {
+      "id": 4,
+      "name": "Programmation"
+    }
+  ],
+  "messages": []
+}
